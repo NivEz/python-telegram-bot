@@ -1,0 +1,11 @@
+{
+    "000": {
+        "message_type": "000",
+        "chat_id": "000",
+        "message_id": "000",
+        "data": "000",
+        "time": "000",
+        "BOT_STATE": "menu",
+        "GAME_SCENE": 0
+    }
+}

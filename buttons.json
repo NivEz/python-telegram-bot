@@ -1,0 +1,122 @@
+{
+    "Menu": {
+        "keyboard": [
+            [
+                {"text": "❌ Tic Tac Toe ⭕"},
+                {"text": "Payments 💸"}
+            ],
+            [
+                {"text": "Timer ⏱"}
+            ],
+            [
+                {"text": "About & Contact 👤"}
+            ]
+        ],
+        "one_time_keyboard": true
+    },
+
+    "Back": {
+        "keyboard": [
+            [
+                {"text": "Back 🔙"}
+            ]
+        ],
+        "one_time_keyboard": true
+    },
+
+    "Game": {
+        "inline_keyboard": [
+            [
+                {"text": ".", "callback_data": "0-0"},
+                {"text": ".", "callback_data": "1-0"},
+                {"text": ".", "callback_data": "2-0"}
+            ],
+            [
+                {"text": ".", "callback_data": "0-1"},
+                {"text": ".", "callback_data": "1-1"},
+                {"text": ".", "callback_data": "2-1"}
+            ],
+            [
+                {"text": ".", "callback_data": "0-2"},
+                {"text": ".", "callback_data": "1-2"},
+                {"text": ".", "callback_data": "2-2"}
+            ]
+        ]
+    },
+
+    "Payments": {
+        "inline_keyboard": [
+            [
+                {"text": "Back 🔙", "callback_data": "Back 🔙"}
+            ]
+        ]
+    },
+
+    "Timer":{
+        "inline_keyboard": [
+            [
+                {"text": "Start timer 🟩", "callback_data": "start"},
+                {"text": "Stop timer 🟥", "callback_data": "stop"}
+            ],
+            [
+                {"text": "Back 🔙", "callback_data": "Back 🔙"}
+            ]
+        ]
+    },
+
+
+    "About": {
+        "inline_keyboard": [
+            [
+                {"text": "contact ℹ", "url": "https://t.me/NivEz1", "callback_data": "contact"}
+            ],
+            [
+                {"text": "Back 🔙", "callback_data": "Back 🔙"}
+            ]
+        ]
+    },
+
+   "StartGame": {
+        "keyboard": [
+            [
+                {"text": "❌"},
+                {"text": "⭕"}
+
+            ]
+        ],
+       "one_time_keyboard": false
+    },
+
+    "OddOrEven": {
+        "keyboard": [
+            [
+                {"text":  "Odd 👪"}
+            ],
+            [
+                {"text": "Even 👬"}
+            ]
+        ],
+       "one_time_keyboard": true
+    },
+
+    "Dice": {
+        "keyboard": [
+            [
+                {"text": "🎲"}
+            ]
+        ],
+       "one_time_keyboard": true
+    },
+
+    "ReplayOrMenu": {
+        "inline_keyboard": [
+            [
+                {"text": "Play again 🎮", "callback_data": "replay"}
+            ],
+            [
+                {"text": "Main menu 🔙", "callback_data": "menu"}
+            ]
+        ],
+        "one_time_keyboard": true
+    }
+}
